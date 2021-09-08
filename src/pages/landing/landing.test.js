@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react';
+import { StaticRouter } from 'react-router-dom';
 import Landing from './Landing';
 
 describe('Landing page tests', () => {
     beforeEach(() => {
-        render(<Landing />);
+        render(<StaticRouter><Landing /></StaticRouter>);
     });
     
     it('it should show a title', () => {
