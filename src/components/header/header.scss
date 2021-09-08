@@ -29,6 +29,7 @@
     background-color: $primary-color;
     overflow: hidden;
     transition: height 0.5s;
+    text-align: center;
 
     ul>li {
         margin-top: 1rem;
@@ -36,6 +37,12 @@
 
     ul :last-child {
         margin-bottom: 1rem
+    }
+
+    a {
+
+        text-decoration: none;
+        color: $white-color;
     }
 }
 
