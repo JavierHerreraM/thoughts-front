@@ -1,0 +1,106 @@
+@import-normalize;
+
+// * Box sizing rules 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// * Remove default padding 
+ul,
+ol {
+    padding: 0;
+}
+
+// * Remove default margin 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+// * Remove list styles on ul, ol elements with a class attribute 
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+// * Make images easier to work with 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+// * Inherit fonts for inputs and buttons 
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+// * Remove all animations and transitions for people that prefer not to see them 
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+// * ---------- RESET CSS ----------
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 5%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+button,
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 500;
+}
